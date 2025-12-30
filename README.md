@@ -15,24 +15,6 @@ Cloudflare Worker：生成一个“打开即发消息”的 iMessage（Messages�
 
 > 说明：Deploy to Cloudflare buttons 仅支持 github.com / gitlab.com 的公开仓库。
 
-## 上传到 GitHub
-
-1) 在 GitHub 新建一个空仓库（例如 `imessage-link-worker`）。
-
-2) 在本地项目目录执行：
-
-```bash
-git init
-git add -A
-git commit -m "init"
-git branch -M main
-git remote add origin https://github.com/<yourname>/imessage-link-worker.git
-git push -u origin main
-```
-
-3) 上传完成后，README 里的按钮链接已经配置为：
-
-`https://github.com/yoogg/imessage-link-worker`
 
 ## 1) 本地运行
 
@@ -72,3 +54,4 @@ npm run deploy
 - `DEFAULT_ID`：默认收件人
 
 > 说明：本项目当前使用 `imessage:` scheme。不同系统/浏览器对自动跳转/扫码拉起 App 的限制不完全一致；页面同时提供“点击打开”的兜底链接。
+
