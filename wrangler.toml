@@ -1,0 +1,7 @@
+name = "imessage-link-worker"
+main = "src/index.ts"
+compatibility_date = "2025-07-18"
+
+[vars]
+# 默认收件人（Apple ID 邮箱/手机号/其他 iMessage 可识别的地址）
+DEFAULT_ID = ""
